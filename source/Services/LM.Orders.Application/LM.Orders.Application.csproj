@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\Core\LM.SharedKernel\LM.SharedKernel.csproj" />
+		<ProjectReference Include="..\LM.Orders.Domain\LM.Orders.Domain.csproj" />
+		<ProjectReference Include="..\LM.Orders.Contracts\LM.Orders.Contracts.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="12.3.0" />
+
+		<PackageReference Include="AutoMapper" Version="12.0.1" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+</Project>
